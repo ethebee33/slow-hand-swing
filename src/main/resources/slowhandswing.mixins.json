@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.ethebee3.slowhandswing.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "MixinClientPlayerEntity",
+    "MixinHeldItemRenderer"
+  ],
+  "mixins": [
+    "MixinLivingEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "slowhandswing",
+  "version": "${version}",
+  "name": "SlowHandSwing",
+  "description": "slow hand swing, what do you think",
+  "authors": [
+    "ethebee3"
+  ],
+  "contact": {
+    "repo": "tbd"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "net.ethebee3.slowhandswing.slowhandswing"
+    ]
+  },
+  "mixins": [
+    "slowhandswing.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.20.3",
+    "fabricloader": ">=0.13",
+    "fabric-key-binding-api-v1": "*"
+  }
+}
